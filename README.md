@@ -39,6 +39,22 @@ This is the core architectural insight: **compliance is not a linear process. It
 
 ---
 
+
+## 🎥 Demo Video
+
+Watch the full 5-scenario pipeline walkthrough here:
+
+👉 **Loom Demo:** https://www.loom.com/share/786348f708be480ea9a5bde7d95361af
+
+This demo shows:
+- End-to-end alert triage
+- Conditional routing in the LangGraph state machine
+- RAG-powered SAR narrative generation
+- Validation + audit trail compilation
+- Streamlit dashboard interaction
+
+---
+
 ## System Architecture
 
 ```mermaid
@@ -420,3 +436,4 @@ Regulatory guidance sourced from publicly available FinCEN advisories and BSA/AM
 <p align="center">
   <b>STRATIFY</b> &mdash; Because compliance shouldn't be a bottleneck. It should be a pipeline.
 </p>
+
