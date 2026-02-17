@@ -1,0 +1,42 @@
+FINCEN COMMON SAR FILING ERRORS
+===============================
+
+ERROR 1: INCOMPLETE SUBJECT INFORMATION
+---------------------------------------
+Description: failing to provide critical identification details for subjects involved in the suspicious activity. This includes omitting Dates of Birth (DOB), Social Security Numbers (SSN) or Tax IDs (TIN), full addresses, or failing to identify all relevant subjects (e.g., beneficiaries of wire transfers).
+FIX Recommendation: systematically verify that every named subject in the narrative has their full KYC/CIP details listed, including full legal name, permanent address, government ID number, and role in the transaction. If specific details are unknown, explicitly state "Information not available" rather than leaving it blank.
+
+ERROR 2: VAGUE NARRATIVE
+------------------------
+Description: using non-specific, subjective terms that do not quantify the activity. Terms like "large amounts", "multiple transactions", "heavy volume", or "over time" are unhelpful to investigators who need precise data to trace funds.
+FIX Recommendation: replace all subjective adjectives with specific numbers and dates. Instead of "large cash deposits," write "five cash deposits totaling $48,000." Instead of "over time," write "between January 1, 2024, and March 31, 2024."
+
+ERROR 3: MISSING 5W+HOW ELEMENTS
+--------------------------------
+Description: failing to address one or more of the core investigative components: Who, What, Where, When, Why, and How. The most frequently missing elements are "Why" (the suspicion rationale) and "How" (the mechanics of the scheme).
+FIX Recommendation: structure the narrative to ensure every section of the 5W+How framework is explicitly covered. Use the "Why" section to explain exactly what makes the activity suspicious (e.g., "inconsistent with business profile") and the "How" section to describe the mechanism (e.g., "funds layered through shell accounts").
+
+ERROR 4: CONCLUSION BIAS
+------------------------
+Description: definitively stating that a crime has occurred or applying a legal conclusion that the institution is not authorized to make. Phrases like "The subject is money laundering" or "The subject committed fraud" can be problematic legally and factually.
+FIX Recommendation: use objective, observation-based language. State that the activity "appears suspicious," "is consistent with money laundering typologies," or "has no apparent lawful purpose." Describe the behavior, not the crime.
+
+ERROR 5: NO FLOW OF FUNDS
+-------------------------
+Description: listing transactions in isolation without showing the movement or lifecycle of the funds. This leaves investigators guessing about the source and ultimate destination of the money.
+FIX Recommendation: narrative should track the path of funds: Source -> Intermediary -> Destination. Explain where the money came from (e.g., "incoming wire from X"), what happened to it (e.g., "held for 2 days"), and where it went (e.g., "withdrawn as cash at ATM Y").
+
+ERROR 6: MISSING PRIOR FILING REFERENCES
+----------------------------------------
+Description: treating a continuing activity case as a new, isolated incident by failing to reference previous SARs filed on the same subject. This fractures the intelligence picture for law enforcement.
+FIX Recommendation: always check for prior filings. If found, explicitly state "This is a continuing activity report following SAR #XXXXXXXX associated with [Subject Name]." Summarize the previous activity briefly to provide context for the current pattern.
+
+ERROR 7: POOR CHRONOLOGICAL ORGANIZATION
+----------------------------------------
+Description: jumping back and forth between dates or grouping transactions by type rather than time, making it impossible to reconstruct the sequence of events.
+FIX Recommendation: present the "Detailed Transaction Analysis" in strict chronological order. Use a timeline approach to tell the story of the activity as it unfolded, which helps reveal patterns like structuring or velocity anomalies.
+
+ERROR 8: INSUFFICIENT CONTEXT
+-----------------------------
+Description: reporting a transaction as suspicious without explaining the baseline "normal" for that customer. A $10,000 deposit is suspicious for a student but normal for a grocery store; without context, the suspicion is unsupported.
+FIX Recommendation: always include a "Customer Profile" section that details the subject's occupation, business type, expected income, and normal transaction volume. explicitly contrast the suspicious activity against this baseline to demonstrate the anomaly.

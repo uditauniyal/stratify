@@ -1,0 +1,97 @@
+FINCEN MONEY LAUNDERING TYPOLOGIES
+==================================
+
+1. STRUCTURING (SMURFING)
+-------------------------
+Activity Code: S
+
+Indicators:
+- Multiple transactions conducted below the $10,000 Currency Transaction Report (CTR) threshold.
+- Multiple branches visited in a short timeframe to deposit cash.
+- Multiple individuals making cash deposits into a single account.
+- Breaking large cash amounts into smaller, less conspicuous sums.
+- Deposits frequently ranging between $9,000 and $9,900.
+- Consistent patterns of cash deposits with no clear business purpose.
+
+Red Flags:
+- Cash deposits consistently just below reporting thresholds ($10,000).
+- Multiple branch visits on the same day.
+- Customer appears nervous or reluctant to provide identification.
+- Customer inquiries about reporting thresholds.
+- Sudden change in deposit behavior inconsistent with stated occupation.
+
+2. LAYERING
+-----------
+Activity Code: L
+
+Indicators:
+- Rapid movement of funds through multiple accounts to obscure the audit trail.
+- Wire transfers to high-risk jurisdictions with weak AML controls.
+- Conversion of cash into monetary instruments (cashier's checks, money orders) and vice versa.
+- Use of shell companies or nominees to distance funds from their origin.
+- Funds received and almost immediately transferred out to another account.
+- Complex web of transactions with no apparent economic or business logic.
+
+Red Flags:
+- Complex, illogical patterns of fund transfers designed to obscure origin.
+- Use of multiple intermediary accounts or "pass-through" accounts.
+- Rapid movement of funds (velocity) preventing funds from settling.
+- Geographic dispersion of transactions inconsistent with business operations.
+- Transactions involving high-risk jurisdictions or known tax havens.
+
+3. FUNNEL ACCOUNT (MONEY MULE)
+------------------------------
+Activity Code: F
+
+Indicators:
+- Recently opened account showing sudden, unexplained high volume of activity.
+- Deposits from multiple unrelated individuals in different geographic locations.
+- Immediate withdrawal of substantially all deposited funds, often via cash or wire.
+- Account holder demographics (e.g., student, unemployed) inconsistent with transaction volume.
+- No legitimate business purpose for the account activity.
+- Account acts as a temporary repository for funds before they are moved elsewhere.
+
+Red Flags:
+- Account open for less than 6 months with high velocity activity.
+- Deposit-to-withdrawal ratio nearing 1:1, leaving minimal balance.
+- Cash withdrawals immediately following electronic deposits.
+- Multiple unique depositors with no apparent connection to the account holder.
+- Activity concentrated in a short timeframe, appearing bursty.
+
+4. TRADE-BASED MONEY LAUNDERING (TBML)
+--------------------------------------
+Activity Code: T
+
+Indicators:
+- Over-invoicing or under-invoicing of goods and services.
+- Multiple invoices for the same shipment of goods.
+- Shipments to high-risk countries or free trade zones not associated with the business.
+- Payments inconsistent with the type of business or stated purpose.
+- Discrepancies between the description of goods on the invoice and the actual goods shipped.
+- Use of complex trade financing arrangements to obscure the true nature of transactions.
+
+Red Flags:
+- Unusual payment patterns, such as third-party payments for goods.
+- Payments to unrelated countries or entities not involved in the trade deal.
+- Prices significantly above or below market value for the goods involved.
+- Documentation appears altered, forged, or inconsistent.
+- Transactions involving dual-use goods or restricted items.
+
+5. CONTINUING ACTIVITY
+----------------------
+Activity Code: C
+
+Indicators:
+- Subject is the focus of a prior Suspicious Activity Report (SAR).
+- Similar or escalating pattern of suspicious activity observed over time.
+- Opening of new accounts or use of new methods to continue the same behavior.
+- Activity shifting to different branches or jurisdictions to avoid detection.
+- Persistence of red flags despite previous account closures or restrictions (if applicable and strictly internal).
+- Continued interactions with known bad actors or high-risk entities.
+
+Red Flags:
+- Prior Document Control Number (DCN) on file for the same subject.
+- Pattern matches or escalates typology identified in previous SARs (within 12-24 months).
+- Subject modifies methods (e.g., changes branches, lowers amounts) to avoid detection.
+- Activity volume or velocity increases after a period of dormancy.
+- Re-emergence of subject after previous account closure or investigation.

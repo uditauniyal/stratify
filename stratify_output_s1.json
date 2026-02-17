@@ -1,0 +1,305 @@
+{
+  "case_id": "ALT-2026-00523",
+  "triage_decision": "TRUE_POSITIVE",
+  "triage_explanation": "High composite risk score (63.5). Primary typology: Structuring with Layering.",
+  "risk_score": 63.48,
+  "typology": "Structuring with Layering",
+  "processing_time_seconds": 0.0,
+  "sar_narrative": {
+    "case_id": "ALT-2026-00523",
+    "title": "SAR - Structuring with Layering - Rajesh Kumar Sharma",
+    "filing_type": "initial",
+    "full_narrative": "**SAR NARRATIVE**\n\n**SECTION 1: SUBJECT INFORMATION**  \n- **Name:** Rajesh Kumar Sharma  \n- **DOB:** [Not Provided]  \n- **ID:** CUST-78234  \n- **Account Opened:** June 15, 2019  \n- **Occupation:** Business Owner - Import/Export  \n- **Employer:** Sharma International Traders  \n- **Income:** $1,200,000.00  \n- **Account Numbers:** [Not Provided]  \n- **Institution:** [Not Provided]  \n\n**SECTION 2: SUMMARY OF SUSPICIOUS ACTIVITY**  \nOn January 11, 2026, an alert was generated (ID: ALT-2026-00523) indicating potential structuring activity associated with Rajesh Kumar Sharma's account. The alert was classified as a true positive with a risk score of 82.5, suggesting a significant deviation from expected transactional behavior. \n\n**SECTION 3: DETAILED TRANSACTION ANALYSIS**  \nThe subject's account exhibited a total of 48 flagged transactions, with a total inflow of $4,760,185.00 and a total outflow of $4,600,000.00. The volume of transactions was noted to be 8.5 times the baseline average inflow of $881,418.17, indicating a substantial increase in activity. Additionally, two new counterparties were identified, and transactions were linked to the United Arab Emirates (AE), a jurisdiction recognized for having weak AML controls.\n\n**SECTION 4: FLOW OF FUNDS**  \nThe flow of funds appears to follow a pattern of rapid movement through the subject's account. Funds were deposited and subsequently transferred out almost immediately, suggesting a potential layering technique to obscure the source of funds. The transactions involved significant amounts, with inflows and outflows occurring in close succession, which raises concerns regarding the legitimacy of the funds.\n\n**SECTION 5: SUSPICION RATIONALE**  \nThe activity appears suspicious due to several factors:  \n- The total inflow of $4,760,185.00 and outflow of $4,600,000.00 significantly exceed the subject's baseline average inflow of $881,418.17, indicating a drastic change in transactional behavior.  \n- The presence of two new counterparties and transactions linked to high-risk jurisdictions (AE) raises concerns about the legitimacy of the funds being transferred.  \n- The rapid movement of funds through the account, with no apparent economic or business rationale, suggests potential structuring to evade detection.  \n- The volume deviation of 8.5 times the baseline is indicative of unusual activity that does not align with the subject's stated occupation as an import/export business owner.\n\n**SECTION 6: PRIOR HISTORY**  \nThere are no prior SARs associated with Rajesh Kumar Sharma, indicating that this sudden spike in activity is atypical for the subject.\n\n**SECTION 7: ACTIONS TAKEN**  \nThe financial institution has conducted an internal review of the subject's account activity and has documented the findings in this SAR. The alert has been escalated for further investigation, and monitoring of the account will continue to assess any additional suspicious activity. \n\nThis narrative is submitted in compliance with FinCEN guidelines to report suspicious activity that may indicate potential money laundering or other financial crimes.",
+    "sections": [],
+    "word_count": 438,
+    "generation_model": "gpt-4o-mini",
+    "generation_timestamp": "2026-02-14T10:15:21.529997",
+    "prompt_hash": "1ad599e49326dfcf76229f67ce616de0",
+    "rag_chunks_used": 6
+  },
+  "validation_result": {
+    "case_id": "ALT-2026-00523",
+    "overall_status": "PASS",
+    "total_checks": 10,
+    "passed": 9,
+    "warnings": 1,
+    "failed": 0,
+    "checks": [
+      {
+        "check": "WHO_SUBJECT_IDENTIFIED",
+        "status": "PASS",
+        "severity": "critical",
+        "detail": "Subject name 'rajesh kumar sharma' found."
+      },
+      {
+        "check": "WHAT_ACTIVITY_DESCRIBED",
+        "status": "PASS",
+        "severity": "critical",
+        "detail": "Activity type described."
+      },
+      {
+        "check": "WHEN_DATES_PRESENT",
+        "status": "PASS",
+        "severity": "critical",
+        "detail": "Dates found."
+      },
+      {
+        "check": "WHERE_LOCATION_PRESENT",
+        "status": "PASS",
+        "severity": "critical",
+        "detail": "Location references found."
+      },
+      {
+        "check": "WHY_SUSPICION_EXPLAINED",
+        "status": "PASS",
+        "severity": "critical",
+        "detail": "Found 4 suspicion keywords."
+      },
+      {
+        "check": "HOW_MECHANISM_DESCRIBED",
+        "status": "PASS",
+        "severity": "major",
+        "detail": "Found 4 mechanism keywords."
+      },
+      {
+        "check": "AMOUNTS_SPECIFIC",
+        "status": "PASS",
+        "severity": "major",
+        "detail": "Found 7 specific amounts."
+      },
+      {
+        "check": "TRANSACTION_COUNTS",
+        "status": "WARN",
+        "severity": "major",
+        "detail": "No explicit transaction counts."
+      },
+      {
+        "check": "NARRATIVE_LENGTH",
+        "status": "PASS",
+        "severity": "minor",
+        "detail": "Word count: 438"
+      },
+      {
+        "check": "NO_DEFINITIVE_CONCLUSIONS",
+        "status": "PASS",
+        "severity": "minor",
+        "detail": "No definitive legal conclusions found."
+      }
+    ],
+    "validation_timestamp": "2026-02-14T10:15:21.531292"
+  },
+  "audit_package": {
+    "case_id": "ALT-2026-00523",
+    "pipeline_version": "STRATIFY v0.1",
+    "generated_at": "2026-02-14T10:15:21.531405",
+    "traceability": [
+      {
+        "sentence": "**SAR NARRATIVE**\n\n**SECTION 1: SUBJECT INFORMATION**  \n- **Name:** Rajesh Kumar Sharma  \n- **DOB:** [Not Provided]  \n- **ID:** CUST-78234  \n- **Account Opened:** June 15, 2019  \n- **Occupation:** Business Owner - Import/Export  \n- **Employer:** Sharma International Traders  \n- **Income:** $1,200,000.00  \n- **Account Numbers:** [Not Provided]  \n- **Institution:** [Not Provided]  \n\n**SECTION 2: SUMMARY OF SUSPICIOUS ACTIVITY**  \nOn January 11, 2026, an alert was generated (ID: ALT-2026-00523) indicating potential structuring activity associated with Rajesh Kumar Sharma's account",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "The alert was classified as a true positive with a risk score of 82.5, suggesting a significant deviation from expected transactional behavior",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "**SECTION 3: DETAILED TRANSACTION ANALYSIS**  \nThe subject's account exhibited a total of 48 flagged transactions, with a total inflow of $4,760,185.00 and a total outflow of $4,600,000.00",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "The volume of transactions was noted to be 8.5 times the baseline average inflow of $881,418.17, indicating a substantial increase in activity",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "Additionally, two new counterparties were identified, and transactions were linked to the United Arab Emirates (AE), a jurisdiction recognized for having weak AML controls.\n\n**SECTION 4: FLOW OF FUNDS**  \nThe flow of funds appears to follow a pattern of rapid movement through the subject's account",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "Funds were deposited and subsequently transferred out almost immediately, suggesting a potential layering technique to obscure the source of funds",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "The transactions involved significant amounts, with inflows and outflows occurring in close succession, which raises concerns regarding the legitimacy of the funds.\n\n**SECTION 5: SUSPICION RATIONALE**  \nThe activity appears suspicious due to several factors:  \n- The total inflow of $4,760,185.00 and outflow of $4,600,000.00 significantly exceed the subject's baseline average inflow of $881,418.17, indicating a drastic change in transactional behavior",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "- The presence of two new counterparties and transactions linked to high-risk jurisdictions (AE) raises concerns about the legitimacy of the funds being transferred",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "- The rapid movement of funds through the account, with no apparent economic or business rationale, suggests potential structuring to evade detection",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "- The volume deviation of 8.5 times the baseline is indicative of unusual activity that does not align with the subject's stated occupation as an import/export business owner.\n\n**SECTION 6: PRIOR HISTORY**  \nThere are no prior SARs associated with Rajesh Kumar Sharma, indicating that this sudden spike in activity is atypical for the subject.\n\n**SECTION 7: ACTIONS TAKEN**  \nThe financial institution has conducted an internal review of the subject's account activity and has documented the findings in this SAR",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "The alert has been escalated for further investigation, and monitoring of the account will continue to assess any additional suspicious activity",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      },
+      {
+        "sentence": "This narrative is submitted in compliance with FinCEN guidelines to report suspicious activity that may indicate potential money laundering or other financial crimes.",
+        "evidence_pointers": [],
+        "source_data_summary": "Derived from enriched dossier",
+        "typology_basis": "Structuring with Layering"
+      }
+    ],
+    "audit_logs": {
+      "ingestion": {
+        "sources_consulted": [
+          "Core Banking",
+          "CRM",
+          "Watchlist DB"
+        ],
+        "transactions_validated": 134,
+        "data_quality_score": 98.5
+      },
+      "enrichment": {
+        "behavioral_baseline": {
+          "avg_monthly_inflow": 881418.17,
+          "avg_monthly_outflow": 217319.0,
+          "avg_txn_count_per_month": 14,
+          "usual_counterparties": [
+            "Patel Exports",
+            "Mehta Traders",
+            "Singh Fabrics",
+            "Gupta Imports"
+          ],
+          "usual_geographies": [
+            "US"
+          ],
+          "usual_channels": [
+            "online"
+          ],
+          "baseline_period": "2025-07-01 to 2025-12-27",
+          "max_single_txn": 149619.0
+        },
+        "deviation_factors": {
+          "volume_deviation_factor": 8.5,
+          "velocity_spike": true,
+          "new_counterparties_count": 2,
+          "new_geographies": [
+            "AE"
+          ],
+          "new_channels": [
+            "branch"
+          ],
+          "deviation_summary": "Volume is 8.5x baseline; Significant velocity spike detected; 2 new counterparties; New geographies: AE",
+          "flagged_txn_count": 48
+        },
+        "risk_factors_count": 0
+      },
+      "triage": {
+        "classification": "TRUE_POSITIVE",
+        "score": 63.48,
+        "explanation": "High composite risk score (63.5). Primary typology: Structuring with Layering.",
+        "llm_used": false
+      },
+      "typology": {
+        "primary_typology": "Structuring with Layering",
+        "secondary_typologies": [],
+        "total_typologies_evaluated": 5,
+        "assessment_timestamp": "2026-02-14T10:14:52.808959"
+      },
+      "generation": {
+        "model": "gpt-4o-mini",
+        "word_count": 438,
+        "rag_chunks": 6,
+        "prompt_hash": "1ad599e49326dfcf76229f67ce616de0"
+      },
+      "validation": {
+        "case_id": "ALT-2026-00523",
+        "overall_status": "PASS",
+        "total_checks": 10,
+        "passed": 9,
+        "warnings": 1,
+        "failed": 0,
+        "checks": [
+          {
+            "check": "WHO_SUBJECT_IDENTIFIED",
+            "status": "PASS",
+            "severity": "critical",
+            "detail": "Subject name 'rajesh kumar sharma' found."
+          },
+          {
+            "check": "WHAT_ACTIVITY_DESCRIBED",
+            "status": "PASS",
+            "severity": "critical",
+            "detail": "Activity type described."
+          },
+          {
+            "check": "WHEN_DATES_PRESENT",
+            "status": "PASS",
+            "severity": "critical",
+            "detail": "Dates found."
+          },
+          {
+            "check": "WHERE_LOCATION_PRESENT",
+            "status": "PASS",
+            "severity": "critical",
+            "detail": "Location references found."
+          },
+          {
+            "check": "WHY_SUSPICION_EXPLAINED",
+            "status": "PASS",
+            "severity": "critical",
+            "detail": "Found 4 suspicion keywords."
+          },
+          {
+            "check": "HOW_MECHANISM_DESCRIBED",
+            "status": "PASS",
+            "severity": "major",
+            "detail": "Found 4 mechanism keywords."
+          },
+          {
+            "check": "AMOUNTS_SPECIFIC",
+            "status": "PASS",
+            "severity": "major",
+            "detail": "Found 7 specific amounts."
+          },
+          {
+            "check": "TRANSACTION_COUNTS",
+            "status": "WARN",
+            "severity": "major",
+            "detail": "No explicit transaction counts."
+          },
+          {
+            "check": "NARRATIVE_LENGTH",
+            "status": "PASS",
+            "severity": "minor",
+            "detail": "Word count: 438"
+          },
+          {
+            "check": "NO_DEFINITIVE_CONCLUSIONS",
+            "status": "PASS",
+            "severity": "minor",
+            "detail": "No definitive legal conclusions found."
+          }
+        ],
+        "validation_timestamp": "2026-02-14T10:15:21.531292"
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+SAR NARRATIVE TEMPLATES
+=======================
+
+TEMPLATE 1: STRUCTURING WITH LAYERING
+-------------------------------------
+
+SECTION 1: SUBJECT INFORMATION
+Name: [Subject Name]
+DOB: [DOB]
+ID: [ID Type] [ID Number]
+Account Opened: [Account Open Date]
+Occupation: [Occupation]
+Employer: [Employer]
+Account Numbers: [Account Numbers]
+Institution: [Institution]
+
+SECTION 2: SUMMARY OF SUSPICIOUS ACTIVITY
+During the review period of [Review Period], [Institution] identified suspicious activity totaling $[Total Amount]. The activity involved [Number of Deposits] cash deposits from [Number of Unique Sources] unique sources, followed by the immediate [Outflow Description]. This represents a [Deviation Factor]x increase over the subject's baseline activity of $[Baseline Amount] and appears consistent with structuring and layering typologies.
+
+SECTION 3: DETAILED TRANSACTION ANALYSIS
+Beginning on [Start Date], the subject received [Deposit Count] deposits totaling $[Total Amount] over a [Date Range] period. The average deposit amount was $[Average Amount]. These transactions followed a specific pattern of [Specific Patterns].
+On [Wire Date], a wire transfer of $[Wire Amount] ([Percentage]% of deposited funds) was sent to [Beneficiary Name] at [Beneficiary Bank] in [Beneficiary Country].
+
+SECTION 4: FLOW OF FUNDS
+Origin: Funds originated from [Origin Count] separate deposits totaling $[Total Inflow] into account [Account Number] via [Channel].
+Disposition: Funds were subsequently [Total Outflow] via [Channel] to [Destination] at [Bank], [Country] within [Timeframe] days.
+
+SECTION 5: SUSPICION RATIONALE
+This activity is considered suspicious for the following reasons:
+1. Deviation: The volume of $[Total Amount] is inconsistent with the customer's profile as a [Occupation] with stated income of $[Income].
+2. Pattern: The pattern indicates [Pattern Indicators].
+3. Typology: The mechanics match FinCEN typology for [Typology Match].
+4. Red Flags: [Additional Red Flags].
+5. Reference: Activity resembles patterns described in FinCEN Advisory [FinCEN Advisory Reference].
+
+TEMPLATE 2: FUNNEL ACCOUNT / MONEY MULE
+---------------------------------------
+
+SECTION 1: SUBJECT INFORMATION
+Name: [Subject Name]
+Account Opened: [Account Opening Date]
+Occupation: [Occupation]
+Stated Income: $[Stated Income]
+
+SECTION 2: SUMMARY OF SUSPICIOUS ACTIVITY
+[Institution] is filing this report on [Subject Name] due to potential funnel account activity. The account, opened only [Timeframe Since Opening] ago, has processed $[Total Amount] in volume. The activity involves deposits from [Number of Unrelated Individuals] unrelated individuals in different geographic locations, followed by [Withdrawal Pattern] withdrawals. This volume is inconsistent with the subject's demographics as a [Demographics Inconsistency].
+
+SECTION 5: SUSPICION RATIONALE
+The activity exhibits the 5 classic indicators of a funnel account/money mule:
+1. Recently Opened: Account was opened on [Account Opening Date] (< 6 months).
+2. Unrelated Depositors: Deposits originated from [Number] unique sources with no apparent connection to the subject.
+3. Rapid Withdrawal: Substantially all funds ($[Withdrawal Amount]) were withdrawn within [Timeframe] days of deposit.
+4. Inconsistent Demographics: Subject's profile as [Occupation] does not support transaction volume of $[Total Amount].
+5. No Business Purpose: There is no apparent legitimate business or economic purpose for this pass-through activity.
+
+TEMPLATE 3: FALSE POSITIVE CLOSURE
+----------------------------------
+
+ALERT CLOSURE NARRATIVE
+Alert ID: [Alert ID]
+Date: [Date]
+System: [System]
+Description: [Description]
+Closure Reason: False Positive
+Narrative: The alert flagged $[Flagged Amount] in [Source] transactions. Upon review, the activity was determined to be consistent with the customer's profile. The customer explained that [Customer Explanation], which is supported by [Supporting Historical Evidence]. No identifying red flags for money laundering were observed. Case closed.

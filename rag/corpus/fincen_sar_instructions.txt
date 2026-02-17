@@ -1,0 +1,134 @@
+FINCEN SAR NARRATIVE WRITING GUIDELINES
+=======================================
+
+OVERVIEW
+========
+
+A Suspicious Activity Report (SAR) narrative must clearly and concisely communicate the nature of the suspicious activity to law enforcement and regulators. The primary goal is to explain why the activity is unusual for the customer, what pattern it follows, and why the institution finds it suspicious. The narrative should be actionable, providing enough detail for an investigator to understand the flow of funds and the potential underlying scheme without needing to manually reconstruct every transaction. It serves as the core intelligence product for financial crime investigations.
+
+THE 5W+HOW FRAMEWORK
+====================
+
+Every effective SAR narrative must address the following six key components:
+
+WHO
+---
+- Identify all subjects involved in the activity.
+- Include full names, addresses, and identification numbers (SSN, TIN, EIN, Passport).
+- Specify the role of each subject (e.g., originator, beneficiary, conductor).
+- Describe the relationship of the subject to the financial institution (e.g., account holder since 2018, new customer).
+- List all relevant account numbers affected.
+- Define the occupation or business type of the subject as per KYC records to establish the expected profile.
+
+WHAT
+----
+- Describe the specific type of suspicious activity (e.g., structuring, potential money laundering, terrorist financing, fraud).
+- State the total aggregate amount of suspicious transactions involved.
+- Specify the total count of suspicious transactions.
+- Detail the instruments used (e.g., cash, wire transfers, checks, ACH, monetary instruments).
+- List the specific transaction types (e.g., deposit, withdrawal, transfer, exchange).
+
+WHEN
+----
+- Define the specific date range of the suspicious activity (Start Date to End Date).
+- Highlight specific key dates where significant spikes or unusual events occurred.
+- Present events in a logical chronological sequence.
+- Indicate the duration of the activity (e.g., "over a period of three months").
+
+WHERE
+-----
+- Identify the specific branch locations or ATM locations where activity occurred.
+- Specify the geographic jurisdictions involved (City, State, Country).
+- For international transfers, clearly state the origin and destination countries.
+- Identify the origin and destination banks for wire transfers.
+- Note if the activity crosses multiple jurisdictions or involves high-risk geographic areas.
+
+WHY
+---
+- Explain WHY the activity is considered suspicious.
+- Describe how the activity is inconsistent with the customer's profile, history, or business type.
+- Identify specific deviations from expected behavior (e.g., cash deposits exceeding reported business revenue).
+- List specific red flags observed (e.g., structuring to avoid reporting thresholds, rapid movement of funds).
+- Explain why any potential legitimate explanations for the activity were considered and ruled out.
+
+HOW
+---
+- Describe the step-by-step scheme or method used to conduct the suspicious activity.
+- illustrating the flow of funds from origin to destination.
+- Explain any techniques used to hide the nature or source of funds (e.g., layering through multiple accounts).
+- Detail any patterns observed (e.g., deposits always made on Friday afternoons, transfers always in round numbers).
+- Describe methods used to avoid detection (e.g., breaking transactions into smaller amounts).
+
+NARRATIVE STRUCTURE
+===================
+
+A comprehensive SAR narrative should follow this standard 7-section structure:
+
+SECTION 1: SUBJECT INFORMATION
+------------------------------
+- detailed identification of all subjects.
+- Employment/Business details.
+- Relationship duration and nature with the institution.
+- Summary of KYC/CDD information.
+
+SECTION 2: SUMMARY OF SUSPICIOUS ACTIVITY
+-----------------------------------------
+- A concise executive summary of the alert.
+- Brief statement of the typology (e.g., "Structuring of cash deposits").
+- The total amount and date range of the activity.
+- The reason for filing.
+
+SECTION 3: DETAILED TRANSACTION ANALYSIS
+----------------------------------------
+- A granular breakdown of the specific transactions.
+- Chronological analysis of the activity.
+- Matrices or lists of transactions if applicable (though usually summarized in text).
+- Specific amounts, dates, and counterparties for key transactions.
+
+SECTION 4: FLOW OF FUNDS
+------------------------
+- Description of the movement of money.
+- Source of funds (where did the money come from?).
+- Destination of funds (where did the money go?).
+- Disposition of funds (was it withdrawn, transferred, or spent?).
+
+SECTION 5: SUSPICION RATIONALE
+------------------------------
+- Synthesis of "Why" this is suspicious.
+- Comparison against expected profile.
+- Discussion of relevant red flags.
+- Exclusion of benign justifications.
+
+SECTION 6: PRIOR HISTORY
+------------------------
+- Reference to any prior SARs filed on the subject.
+- Summary of previous investigations or alerts.
+- Law enforcement inquiries or subpoenas (if permitted to disclose).
+- Negative news or adverse media findings.
+
+SECTION 7: ACTIONS TAKEN
+------------------------
+- Description of bank actions (e.g., account closure, restrictions, enhanced monitoring).
+- Future monitoring plans.
+- Referrals to other departments.
+
+QUALITY STANDARDS
+=================
+
+- Factual Language: Use objective, neutral language. Avoid opinions or speculation.
+- Traceability: Every claim must be supported by data available in the institution's records.
+- Specificity: Use exact amounts, specific dates, and precise IDs. Avoid "several" or "large amounts" without qualification.
+- Clarity: Avoid internal jargon or unexplained acronyms. Write for an external audience (law enforcement).
+- Conclusiveness: Do not conclude that money laundering HAS occurred; describe WHY the activity APPEARS suspicious.
+- Length: Typical narratives range from 1,500 to 3,000 words depending on complexity, but should be as long as necessary to fully explain the activity.
+
+COMMON PITFALLS
+===============
+
+- Vague Language: Using terms like "suspicious activity" without defining what the activity actually is.
+- Missing "Why": Describing the transactions without explaining why they are unusual for this specific customer.
+- Failed Logic: Failing to connect individual transactions to a broader pattern or scheme.
+- Ignoring Profile: Not referencing the customer's KYC profile (income, occupation) to demonstrate the anomaly.
+- Omitting History: Failing to mention prior SARs, which establishes a pattern of continuing activity.
+- Data Dumping: Pasting rows of transaction data without narrative analysis or context.
+- Unsubstantiated Claims: Making allegations of specific crimes (e.g., "Drug Trafficking") without direct evidence; use "activity consistent with..." instead.
