@@ -420,7 +420,7 @@ The generated SAR narrative includes specific dollar amounts, transaction counts
 | Member | Role | Focus |
 |--------|------|-------|
 | **Udita** | Lead Engineer | Pipeline architecture, LangGraph orchestration, agent design, RAG system|
-| **Tanvee** | AI Engineer |  Streamlit UI, PPT, Research, testing |
+| **Tanvee** | Engineer |  Streamlit UI, PPT, Research, testing |
 | **Garima** | Engineer | Streamlit UI, PPT, Research, testing |
 
 ---
@@ -436,3 +436,4 @@ Regulatory guidance sourced from publicly available FinCEN advisories and BSA/AM
 <p align="center">
   <b>STRATIFY</b> &mdash; Because compliance shouldn't be a bottleneck. It should be a pipeline.
 </p>
+
